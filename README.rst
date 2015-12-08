@@ -55,10 +55,10 @@ The Authorization Code flow is a two-step authorization process. The first step 
 
     from uber_rides.auth import AuthorizationCodeGrant
     auth_flow = AuthorizationCodeGrant(
-        YOUR_CLIENT_ID,
-        YOUR_PERMISSION_SCOPES,
-        YOUR_CLIENT_SECRET,
-        YOUR_REDIRECT_URL,
+        35D8joNTdEIrhbMypnJare1HCi2J0rt-,
+        profile,
+        Eamxf0nc3M1urVLLpfyBMeSp5S25k7ziSaK27Nc9,
+        https://developer.uber.com/docs/authentication,
     )
     auth_flow = AuthorizationCodeGrant(
         35D8joNTdEIrhbMypnJare1HCi2J0rt-,
