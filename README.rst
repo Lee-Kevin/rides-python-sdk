@@ -60,6 +60,12 @@ The Authorization Code flow is a two-step authorization process. The first step 
         YOUR_CLIENT_SECRET,
         YOUR_REDIRECT_URL,
     )
+    auth_flow = AuthorizationCodeGrant(
+        35D8joNTdEIrhbMypnJare1HCi2J0rt-,
+        profile,
+        Eamxf0nc3M1urVLLpfyBMeSp5S25k7ziSaK27Nc9,
+        https://developer.uber.com/docs/authentication,
+    )
     auth_url = auth_flow.get_authorization_url()
 
 Note that `YOUR_REDIRECT_URL` must match the value you provided when you registered your application. 
